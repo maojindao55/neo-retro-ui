@@ -1,0 +1,23 @@
+{
+  "name": "NeoRetroUI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maojindao55/NeoRetroUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maojindao55/NeoRetroUI/issues"
+  },
+  "homepage": "https://github.com/maojindao55/NeoRetroUI#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
