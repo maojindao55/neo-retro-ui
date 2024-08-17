@@ -1,6 +1,6 @@
 {
   "name": "neo-retro-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Neo-Retro UI component library",
   "main": "src/index.js",
   "scripts": {
