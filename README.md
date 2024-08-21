@@ -84,7 +84,7 @@ This guide will help you integrate the NeoRetro UI components into your Tailwind
 </form>
 ```
 
-###Badges 
+### Badges 
 
 ```html
 <span class="badge badge-primary">primary</span>
