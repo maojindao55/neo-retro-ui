@@ -36,6 +36,7 @@ This guide will help you integrate the NeoRetro UI components into your Tailwind
 <button class="btn">Default Button</button>
 <button class="btn bg-secondary text-white">Secondary Button</button>
 <button class="btn bg-transparent text-secondary border-secondary hover:bg-secondary hover:text-white">Outline Button</button>
+
 ```
 
 ### Cards
@@ -83,7 +84,8 @@ This guide will help you integrate the NeoRetro UI components into your Tailwind
 </form>
 ```
 
-### Badges 
+###Badges 
+
 ```html
 <span class="badge badge-primary">primary</span>
 <span class="badge badge-secondary">secondary</span>
@@ -94,6 +96,32 @@ This guide will help you integrate the NeoRetro UI components into your Tailwind
 <div class="alert alert-success">This is a success alert!</div>
 <div class="alert alert-warning">This is a warning alert!</div>
 <div class="alert alert-danger">This is a danger alert!</div>
+```
+
+### Tabs
+
+```html
+    <div class="tabs">
+      <div class="tab active" data-tab="tab1">Tab 1</div>
+      <div class="tab" data-tab="tab2">Tab 2</div>
+      <div class="tab" data-tab="tab3">Tab 3</div>
+    </div>
+    <div id="tab1" class="tab-content active">Content for Tab 1</div>
+    <div id="tab2" class="tab-content">Content for Tab 2</div>
+    <div id="tab3" class="tab-content">Content for Tab 3</div>
+```
+
+### Navbar
+
+```html
+  <nav class="navbar">
+      <div class="navbar-brand">NeoRetro</div>
+      <div class="navbar-menu">
+          <a href="#" class="navbar-item">Home</a>
+          <a href="#" class="navbar-item">About</a>
+          <a href="#" class="navbar-item">Contact</a>
+      </div>
+  </nav>
 ```
 
 ## Additional Components
