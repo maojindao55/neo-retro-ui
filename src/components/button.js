@@ -25,11 +25,24 @@ module.exports = (theme) => ({
         boxShadow: `${theme('boxShadow.neoretro')}, 0 0 0 3px rgba(247, 223, 30, 0.5)`,
       },
     },
+  
+    // Add size variants
+    '.btn-sm': {
+      padding: `${theme('spacing.1')} ${theme('spacing.2')}`,
+      fontSize: theme('fontSize.sm'),
+    },
+  
+    '.btn-lg': {
+      padding: `${theme('spacing.3')} ${theme('spacing.6')}`,
+      fontSize: theme('fontSize.lg'),
+    },
+
     '.btn-secondary': {
       backgroundColor: theme('colors.secondary'),
       color: theme('colors.white'),
       '&:hover': {
-        backgroundColor: 'rgba(22, 77, 100, 0.9)',
+        backgroundColor: theme('colors.primary'),
+        color: theme('colors.black'),
       },
     },
     '.btn-outline': {

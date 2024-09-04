@@ -3,7 +3,6 @@ module.exports = (theme) => ({
   '.navbar': {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
     padding: `${theme('spacing.3')} ${theme('spacing.5')}`,
     backgroundColor: theme('colors.primary'),
     border: `2px solid ${theme('colors.secondary')}`,
@@ -14,10 +13,15 @@ module.exports = (theme) => ({
     fontSize: theme('fontSize.xl'),
     fontWeight: 'bold',
     color: theme('colors.primary-dark'),
+    marginRight: theme('spacing.4'), // 在品牌和菜单之间添加一些间距
   },
   '.navbar-menu': {
     display: 'flex',
     gap: theme('spacing.4'),
+    // 不需要额外的样式，它会自然地跟随在 brand 之后
+  },
+  '.navbar-end': {
+    marginLeft: 'auto', // 将菜单项推到右边
   },
   '.navbar-item': {
     padding: `${theme('spacing.2')} ${theme('spacing.3')}`,

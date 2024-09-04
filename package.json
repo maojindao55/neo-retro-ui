@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/maojindao55/neo-retro-ui.git"
   },
-  "keywords": ["ui", "components", "neo-retro", "react"],
+  "keywords": [
+    "ui",
+    "components",
+    "neo-retro",
+    "react"
+  ],
   "author": "Hobby",
   "license": "ISC",
   "bugs": {

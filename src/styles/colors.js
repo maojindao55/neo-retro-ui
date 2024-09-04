@@ -1,5 +1,7 @@
 // src/styles/colors.js
 module.exports = {
+    white: 'rgb(255, 255, 255)',
+    black: 'rgb(0, 0, 0)',
     primary: 'rgb(247, 223, 30)',
     'primary-dark': 'rgb(8, 51, 68)',
     secondary: 'rgb(22, 77, 100)',
